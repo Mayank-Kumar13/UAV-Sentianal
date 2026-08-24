@@ -74,6 +74,7 @@ To prove implementability to the SIH Judges, we utilize a **Two-Laptop Demonstra
   <pre><code>
 Team Members
 ----------------
+• Mayank Kumar
 • Vadanta Kumar Chauhaan
 • Mayank Sharma
 • Mayank Chaudhary
@@ -84,6 +85,6 @@ Team Members
 
 ---
 <div align="center">
-  <p><b>Team Base:</b> ABES Engineering College | <b>Project Lead:</b> Mayank Kumar</p>
+  <p><b>Team Base:</b> ABES Engineering College | <b>Project Lead:</b> <code>Mayank Kumar</code></p>
   <p><i>Ready for Smart India Hackathon 2026</i></p>
 </div>
