@@ -357,6 +357,11 @@ function animate() {
   // ---- Update physics ----
   updatePhysics(simState, inputs, delta, elapsed);
 
+  // ---- Update Haptics ----
+  if (inputHandler.updateHaptics) {
+    inputHandler.updateHaptics(simState);
+  }
+
   // ---- Update UAV 3D transforms ----
   if (uavGroup) {
     uavGroup.position.set(simState.posX, simState.posY, simState.posZ);
