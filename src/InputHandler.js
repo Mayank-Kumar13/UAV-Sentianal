@@ -54,8 +54,8 @@ export function createInputHandler() {
     const throttleDown = isPressed('KeyS') ? 1 : 0;
 
     // Roll: A left, D right
-    const rollLeft = isPressed('KeyA') ? 1 : 0;
-    const rollRight = isPressed('KeyD') ? 1 : 0;
+    const rollLeft = isPressed('KeyD') ? 1 : 0;
+    const rollRight = isPressed('KeyA') ? 1 : 0;
 
     // Pitch: ArrowUp = pitch up (nose up), ArrowDown = pitch down
     const pitchUp = isPressed('ArrowUp') ? 1 : 0;
